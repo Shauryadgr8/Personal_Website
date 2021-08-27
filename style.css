@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    background: black;
 }
 
 .sec1 {
@@ -19,25 +20,27 @@ body {
     list-style: none;
     position: fixed;
     font-family: sans-serif;
-    top: 10px;
+    top: 0px;
     right: 30px;
     z-index: 10;
-    cursor: pointer;
+    width: 100%;
+    
 }
 
 .links {
-    float: left;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 9px;
-    padding-left: 9px;
-    font-family: 'WindSong', cursive;
+    padding-right: 25px;
+    padding-left: 33px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline
 }
 
 .links:hover {
     background-color: deeppink;
     font-size: 23px;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 #name {
@@ -49,6 +52,7 @@ body {
 #sec2 {
     padding-right: 150px;
     padding-left: 150px;
+    background-color: beige;
 }
 
 .line {
@@ -63,8 +67,37 @@ h1{
 p{
     font-family: 'Allan', cursive;
 font-family: 'Zen Tokyo Zoo', cursive;
-}
+}ā
 .books1{
     font-style: italic;
     color: darkslategray;
+}
+img:hover{
+    height: 210;
+    width: 210;
+}
+img{
+    transition: transform.2s;
+}
+#contact iframe{
+    width: 100%;
+}
+#videos{
+    background: pink;
+}
+#coding{
+    background: white;
+}
+#contact{
+    background-color: darkgray;
+}
+#books{
+    background-color: crimson;
+}
+#link{
+    background: black;
+    height: 45px;
+}
+.carousel slide{
+    background-color: aqua;
 }
